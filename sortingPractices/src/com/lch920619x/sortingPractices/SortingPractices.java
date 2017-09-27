@@ -1,6 +1,6 @@
 package com.lch920619x.sortingPractices;
 
-public class sortingPractices {
+public class SortingPractices {
 
 	public static void main(String[] args) {
 		int[] numbers= new int[50000];

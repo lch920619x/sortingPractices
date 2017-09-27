@@ -1,6 +1,6 @@
 package com.lch920619x.sortingPractices;
 
-public class bubbleSort {
+public class BubbleSort {
 	public static int[] sort(int[] arr) {
 		
 		int isChangeMade = 1;
