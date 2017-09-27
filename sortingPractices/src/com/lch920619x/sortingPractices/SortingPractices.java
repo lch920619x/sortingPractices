@@ -3,7 +3,7 @@ package com.lch920619x.sortingPractices;
 public class SortingPractices {
 
 	public static void main(String[] args) {
-		int[] numbers= new int[50000];
+		int[] numbers= new int[50];
 		populateArray(numbers);
 		
 		System.out.println("before sorting:");
@@ -11,7 +11,7 @@ public class SortingPractices {
 			System.out.print(numbers[i]+",");
 		}
 		
-		BubbleSort.sort(numbers);
+		QuickSort.sort(numbers);
 		
 		System.out.println("\nafter sorting:");
 		
