@@ -15,6 +15,7 @@ public class SelectionSort {
 				arr[min] = temp;
 			}
 		}
+		System.out.println("\nArray sorted using SelectionSort.");
 		return arr;
 	}
 }

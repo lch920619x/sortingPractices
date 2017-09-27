@@ -12,6 +12,7 @@ public class InsertionSort {
 				if (i==0) break;
 			}
 		}
+		System.out.println("\nArray sorted using InsertionSort.");
 		return arr;
 	}
 }

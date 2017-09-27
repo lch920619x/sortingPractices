@@ -18,6 +18,7 @@ public class BubbleSort {
 			
 		}
 		}
+		System.out.println("\nArray sorted using BubbleSort.");
 		return arr;
 	}
 }

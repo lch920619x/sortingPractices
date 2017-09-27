@@ -3,6 +3,7 @@ package com.lch920619x.sortingPractices;
 public class QuickSort {
 	public static int[] sort(int[] arr) {
 		partition(arr, 0 , arr.length-1);
+		System.out.println("\nArray sorted using QuickSort.");
 		return arr;
 	}
 	private static void partition(int[]arr, int start, int end){
