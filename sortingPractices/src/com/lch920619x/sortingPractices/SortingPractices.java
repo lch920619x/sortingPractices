@@ -11,7 +11,7 @@ public class SortingPractices {
 			System.out.print(numbers[i]+",");
 		}
 		
-		bubbleSort sort1 = new bubbleSort();
+		BubbleSort sort1 = new BubbleSort();
 		numbers = sort1.sort(numbers);
 		
 		System.out.println("\nafter sorting:");
