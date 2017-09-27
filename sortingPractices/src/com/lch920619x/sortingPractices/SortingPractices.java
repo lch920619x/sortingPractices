@@ -23,8 +23,13 @@ public class SortingPractices {
 		}
 		
 		System.out.println("\nChoose your sorting method: ");
-		System.out.println("1:Bubble 2:Insertion 3:Merge 4:Quick 5:Selection");
-		int sortingMethod = scanner.nextInt();
+		
+		int sortingMethod = 0;
+		while (sortingMethod<1||sortingMethod>5) {
+			System.out.println("1:Bubble 2:Insertion 3:Merge 4:Quick 5:Selection");
+
+			sortingMethod = scanner.nextInt();
+		}
 		
 		switch(sortingMethod) {
 			case 1:
@@ -42,8 +47,6 @@ public class SortingPractices {
 			case 5:
 				SelectionSort.sort(numbers);
 				break;
-			default:
-				System.out.println("Invalid Input");
 		}
 		
 		
