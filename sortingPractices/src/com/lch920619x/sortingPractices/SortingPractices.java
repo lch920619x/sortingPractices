@@ -3,7 +3,7 @@ package com.lch920619x.sortingPractices;
 import java.util.Scanner;
 
 public class SortingPractices {
-
+//add a comment 123
 	public static void main(String[] args) {
 	
 		Scanner scanner = new Scanner(System.in);	
